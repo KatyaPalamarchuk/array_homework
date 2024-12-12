@@ -1,5 +1,8 @@
 const shedule = [];
 
+const choice = document.querySelector("#input");
+const event = document.querySelector("#add");
+
 function showMenu() {
     const choice = promt("Що ви хочете зробити? 1.Додати подію; 2.Переглянути розклад; 3.Вийти");
     switch (choice){
